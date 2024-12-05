@@ -1,0 +1,62 @@
+.usersList form{
+    max-width: 600px;
+    border: 1px solid black;
+    padding: 30px;
+    margin: auto;
+}
+
+.usersList form input,
+.usersList form select {
+    width: 100%;
+}
+
+.usersList form button {
+    background-color: lightskyblue;
+    padding: 6px 12px;
+    margin-top: 18px;
+    border: 0px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.usersList form button:hover {
+    background-color: lightblue;
+}
+
+.usersList .list {
+    max-width: 600px;
+    border: 1px solid black;
+    padding: 30px;
+    margin: auto;
+}
+
+.usersList .list .userItem {
+    border: 1px solid green;
+    cursor: pointer;
+}
+
+.usersList .list .userItem:hover {
+    background-color: red;
+}
+
+.selectionButtons {
+    max-width: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.selectionButtons button {
+    background-color: lightskyblue;
+    padding: 6px 12px;
+    margin: 0 6px;
+    border: 0px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.selectionButtons button:hover {
+    background-color: lightblue;
+}
